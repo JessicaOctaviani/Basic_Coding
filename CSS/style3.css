@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Kosugi&family=LXGW+WenKai+TC&family=Mochiy+Pop+One&family=Noto+Serif+JP:wght@200..900&family=Shippori+Antique+B1&family=Zen+Old+Mincho&display=swap');
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tables table {
+    width: 100%;
+}
+
+.tables {
+    border-bottom: solid 5px #79b8a8;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    font-family: "Kosugi", sans-serif;
+    font-size: 19px;
+}
+
+.tables table th {
+    border: solid 1px #1b1e1d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.table1 table th {
+    background-color: rgb(82, 180, 133);
+}
+
+.table2 table td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+td {
+    vertical-align: baseline;
+    text-align: center;
+    font-family: "Noto Serif JP", serif;
+    font-size: 18px;
+}
+
+body {
+    display: block;
+}
+
+#tb-form {
+    background-image: linear-gradient(to bottom right, #49b99d, #c79f3b);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: opx;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#tb-form .container {
+    background-color: rgb(219, 211, 211);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    display: block;
+    font-size: 1.7em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Noto Serif JP", serif;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Zen Old Mincho", serif;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+form {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    unicode-bidi: isolate;
+}
+
+input {
+    font-family: "Shippori Antique B1", sans-serif;
+    font-size: 14px;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+
+label {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-size: 16px;
+}
+
+.form label {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.form input {
+    width: 100%;
+    display: block;
+    background-color: #d4bb7d;
+    border: none;
+    padding: 10px;
+}
+
+
+select {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    font-family: "Shippori Antique B1", sans-serif;
+    font-size: 14px;
+}
+
+.form select {
+    width: 100%;
+    display: block;
+    background-color: #d4bb7d;
+    border: none;
+    padding: 10px;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+textarea {
+    font-family: "Shippori Antique B1", sans-serif;
+    font-size: 14px;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    overflow-wrap:break-word;
+    column-count: initial !important;
+    white-space: pre-warp;
+}
+
+.form textarea {
+    width: 100%;
+    background-color: #d4bb7d;
+    border: none;
+    padding: 10px;
+}
+
+.form button {
+    width: 100%;
+    background-color: #4ea08c;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    padding-block: 1px;
+    padding-inline: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    font-family: "LXGW WenKai TC", cursive;
+}
+
+.form button:hover {
+    background-color: #336a5d;
+}
